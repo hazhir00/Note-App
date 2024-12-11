@@ -1,0 +1,136 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* _______________________________________________________________ */
+
+/* Resets */
+/* 1. Use a more-intuitive box-sizing model 
+    2. Remove default margin
+    3. Remove default Padding*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* 4. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    /* display: block; */
+    max-width: 100%;
+}
+
+/* 5. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 6. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 7. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+/* _______________________________________________________________ */
+
+/* Variables */
+:root {
+    /* Color Theme */
+
+    /* Typography */
+
+    /* Spacing */
+
+    /* Breakpoints */
+}
+/* _______________________________________________________________ */
+
+/* !Main CSS */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.container h1 img {
+    width: 2em;
+}
+
+.container button img {
+    width: 1.5em;
+    margin-right: 0.5em;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9478fd, #571094 50%);
+    color: #fff;
+    font-size: 1rem;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 0.75em 1.5em;
+    margin: 2em 0 1.5em;
+    cursor: pointer;
+}
+
+.input-box {
+    position: relative;
+    width: min(30em, 90%);
+    min-height: 10em;
+    background-color: #fff;
+    color: #333;
+    padding: 1.25em;
+    margin: 2em 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.input-box img {
+    width: 2em;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    cursor: pointer;
+}
+/* _______________________________________________________________ */
+/* Media Queries */
+@media() {
+}
+/* _______________________________________________________________ */
